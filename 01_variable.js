@@ -1,6 +1,6 @@
 
 var myName; // this is my variable declaration
-myName = "Kirankumar"; // variable Assignment ot initialization
+myName = "Kirankumar"; // variable initialization
 console.log(myName);
 
 
