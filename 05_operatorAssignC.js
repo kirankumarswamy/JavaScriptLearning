@@ -1,13 +1,15 @@
 
 console.log(`====================Assignment 1=====================`);
-var eligibility  = function(gradScore,hscScore,sscScore,candidateName){
-    var result = gradScore >=70 || hscScore >= 80 || sscScore >90 ? "You are eligible for TCS interview" : "Unfortunately you are not eligible for interview ";   
-    console.log(`"${candidateName}"'${result}'`);
-
+var interviewEligibility = function(gradScore, hscScore, sscScore, candidateName ){
+   var result = gradScore>=70 || hscScore>= 80 || sscScore >=90 
+    ? `Congrats ${candidateName} you are eligible for TCS interview.`
+    :  `Unfortunately you are not eligible for interview`;
+    console.log(result);
 }
- eligibility(80,86,90,"Kirankumar");
- eligibility(70,65,55,"Sachin");
- eligibility(60,79,88,"Vijay");
+
+interviewEligibility(80, 86, 90, 'Mahi');
+interviewEligibility(70, 65, 55, 'Gill');
+interviewEligibility(60, 79, 88, 'Stew');
 
 
  console.log(`====================Assignment 2=====================`);
