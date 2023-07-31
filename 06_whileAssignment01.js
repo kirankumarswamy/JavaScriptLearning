@@ -12,6 +12,7 @@ console.log(`2)Numbers from 50 to 40 by decrementing 1`);
  var i = 50;
  while (i>=40) {
     console.log(i);
+    i--;
  }
 
  console.log(`------------------------------------`);
