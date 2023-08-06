@@ -11,26 +11,23 @@
 
     degrees :{
         engineering : "CSC",
-        masters : "MTech",
+        masters : "Embeded systems",
         PHD : "Adv Computing",
 
         concatDegrees : function(){
-            console.log(`Teacher degrees : ${this.engineering} , ${this.masters} , ${this.PHD}`);
+            return`Teacher degrees : ${this.engineering} , ${this.masters} , ${this.PHD}`;
         }
     },
     certificates:["Hacker Rank praticipation","Certificate in IE course","Certificate in Adv Programming"],
  }
  console.log(professor);
  professor.degrees.concatDegrees()
-
- professor.experience = "14 years"
- console.log(professor);
-
- professor.experience = "20 years"
- console.log(professor);
-
-professor.certificates.push("Oracle certificate")
-console.log(professor);
+console.log(``);
+ console.log(`added value is : professor experience ${professor.experience = "14 years"}`);
+console.log(`----------------------------------------------------------------------`);
+ console.table(`Updated experience : ${professor.experience = "20 years"}`);
+console.log(``);
+console.log(`Added certificate : ${professor.certificates.push("Oracle certificate")}`);
 
 let lastElement = professor.certificates.length;
 console.log(`The last element of array certificates is : "${professor.certificates[lastElement-1]}"`);
