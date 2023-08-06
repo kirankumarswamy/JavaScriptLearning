@@ -49,36 +49,52 @@ let bank = {
     empNames : ["Jenny", "Elon", "Warrren", "Stew"]
 }
 
-let city = bank.address.city;
-bank.address.country = "Maharashtra";
-bank.empNames.pop();
-bank.empNames.unshift("Mark");
-
-bank.address.getAddress();
-
-bank.empNames.push("Anil");
-
-
-
-let student = {
-    rollNumber: 2233,
-    state: "MH",
-    city: "Pune",
-    college: "COEP Pune"
-}
-
-let keysStudent = Object.keys(student);
-console.log(keysStudent);
-let valuesStudent = Object.values(student);
-console.log(valuesStudent);
-
 console.log(`----------Traversing an object ------------ `);
-for (const key in student) {
-    if (Object.hasOwnProperty.call(student, key)) {
-        const element = student[key];
+for (const key in bank) {
+    if (Object.hasOwnProperty.call(bank, key)) {
+        const element = bank[key];
         console.log(`Key: ${key}, value : ${element}`); 
     }
 }
 
 
-let isAvailable= "college" in student;
+
+
+
+
+
+
+// let city = bank.address.city;
+// bank.address.country = "Maharashtra";
+// bank.empNames.pop();
+// bank.empNames.unshift("Mark");
+
+// bank.address.getAddress();
+
+// bank.empNames.push("Anil");
+
+
+
+// let student = {
+//     rollNumber: 2233,
+//     state: "MH",
+//     city: "Pune",
+//     college: "COEP Pune",
+
+// }
+
+// let keysStudent = Object.keys(student);
+// console.log(keysStudent);
+// let valuesStudent = Object.values(student);
+// console.log(valuesStudent);
+
+// console.log(`----------Traversing an object ------------ `);
+// for (const key in student) {
+//     if (Object.hasOwnProperty.call(student, key)) {
+//         const element = student[key];
+//         console.log(`Key: ${key}, value : ${element}`); 
+//     }
+// }
+
+
+// let isAvailable= "college" in student;
