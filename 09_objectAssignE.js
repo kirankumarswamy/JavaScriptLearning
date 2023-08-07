@@ -18,7 +18,7 @@ sbiBank.showDetails();
 
 let axisBank = {
     bankName : "Axis Bank",
-    location  : " Gandhi Gunj Road Bidar",
+    location  : " Bidar",
     accountNo : "73827355282",
     ifsc : " UTIB0000484",
     interestRate :  4.9,
@@ -31,7 +31,7 @@ axisBank.showDetails();
 
 let hdfcBank = {
     bankName : "HDFC Bank",
-    location  : " Udgir Road Bidar",
+    location  : " Udgir road Bidar",
     accountNo : "62874663829",
     ifsc : "HDFC0000972",
     interestRate : 6.3,
