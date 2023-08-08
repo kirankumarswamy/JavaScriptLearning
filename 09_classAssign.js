@@ -5,7 +5,7 @@ console.log(`===================================================Step-1==========
 
 class vehicle {
     constructor(vehicleName,model,year,color,engine,price){
-        this.vehicleName = vehicleName
+    this.vehicleName = vehicleName
     this.model = model;
     this.year = year;
     this.color = color;
@@ -78,11 +78,10 @@ console.log(`===================================================step-3==========
 
 
 function traverseObject(collegeDetails){
-     let space = []
-    for (const key in collegeDetails) {
-        if (Object.hasOwnProperty.call(collegeDetails, key)) {
-            const element = collegeDetails[key];
-            console.log(`${key} : ${element}`);
+    for (const college in collegeDetails) {
+        if (Object.hasOwnProperty.call(collegeDetails, college)) {
+            const element = collegeDetails[college];
+            console.log(`College Details : ${college} : ${element}`);
 
         }
     }
