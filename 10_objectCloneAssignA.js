@@ -72,3 +72,16 @@ console.log(`Given string is : "Technology"`);
 //     i--
 // }
 // console.log(`Reversed string is : "${strReversed}"`);
+
+                 // OR //
+
+// let company  = "Codemind Technology";
+// let seperate = company.split(" ");
+// console.log(seperate);
+
+// let reverseWord = seperate[1];
+// let finalReverse="";
+// for (let i = reverseWord.length-1; i >=0; i--) {
+// finalReverse +=reverseWord[i]    
+// }
+// console.log(finalReverse);
