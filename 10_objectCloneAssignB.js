@@ -13,7 +13,7 @@ console.log(bankSbi);
 
 
 const bankLocation = {
-    street : "near Deputy Commissioner's Office, Sgivaji circle Bidar ",
+    street : "near Deputy Commissioner's Office, Shivaji circle Bidar ",
     city : "Bidar",
     pincode : 585401
 }
