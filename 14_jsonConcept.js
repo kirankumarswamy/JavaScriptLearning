@@ -13,6 +13,8 @@ console.log(` address type of ==>  ${typeof address}`);
 console.log(address);
 console.log(address.location);
 console.log(address.owners);
+console.log(address.street);
+console.log(address.pin);
 
 console.log(`==========================`);
 const student = {
