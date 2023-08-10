@@ -13,7 +13,8 @@ console.log(`---------------step2--------------`);
 var hobby1 = 'Reading books';
 var hobby2 = 'Playing cricekt';
 var hobby3 = 'Travelling';
-console.log(`2.1) My first hobby is:\"${hobby1}"\, My second hobby is: \"${hobby2}\", My third hobby is: \"${hobby3}"`);
+console.log(`2.1) My first hobby is:"${hobby1}", My second hobby is: "${hobby2}", My third hobby is: "${hobby3}"`);
 
-var totalchar = hobby1.length + hobby2.length + hobby3.length;
-console.log(`2.2) Sum of total number of charcters in hobby1,hobby2 and hobby3 are:\"${totalchar}"`);
+// var totalchar = hobby1.length + hobby2.length + hobby3.length;
+var totalchar = (hobby1+hobby2+hobby3).length
+console.log(`2.2) Sum of total number of charcters in hobby1,hobby2 and hobby3 are:"${totalchar}"`);
