@@ -32,7 +32,7 @@ const empDeptNames = arrayEmployee.map((currentValue)=>{
 console.log(empDeptNames);
 console.log(`----------------------------------------------------`);
 
-console.log(`2)List Of Employee Id's`);
+console.log(`3)List Of Employee Id's`);
 const empIds = arrayEmployee.map((currentValue)=>{
     return currentValue.emp_id
 })
